@@ -6,6 +6,7 @@ function App() {
       <h1>Initial build of glass react app</h1>
       <h2>This is sparta</h2>
       <h3>someting</h3>
+      <h4>Latest news</h4>
     </div>
   );
 }
