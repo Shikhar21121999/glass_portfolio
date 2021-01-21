@@ -3,8 +3,9 @@ import React from 'react'
 export default function Home() {
     // Functional component to render Home Page
     return (
-        <div>
-            Home page
+        <div class="component">
+            <h1>Shikhar Sharma</h1>
+            <h2>Full Stack Developer</h2>
         </div>
     )
 }
