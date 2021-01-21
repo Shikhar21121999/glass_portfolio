@@ -10,10 +10,10 @@ function App() {
   const [curr_pane,setcurr_pane]=useState("Home")
 
   return (
-    <div >
+    <div className="app">
       <MyContext.Provider value={{curr_pane,setcurr_pane}}>
-        <Sidebar/>
-        <Dashboard/>
+        <Sidebar />
+        <Dashboard />
       </MyContext.Provider>
     </div>
   );

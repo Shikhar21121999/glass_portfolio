@@ -4,6 +4,7 @@ import Home from './Home'
 import Project from './Project'
 import ContactMe from './ContactMe'
 import {MyContext} from './App'
+import './App.css'
 
 export default function Dashboard() {
     // functional component that renders out content depending on which button is pressed
@@ -18,8 +19,7 @@ export default function Dashboard() {
 
 
     return (
-        <div>
-            <div className="class">This is a Dashboard area</div>
+        <div className="dashboard">
             {curr_comp}
         </div>
     )
