@@ -1,12 +1,20 @@
 import './App.css';
+import Sidebar from './Sidebar.js'
+import Dashboard from './Dashboard'
+import React,{useState} from 'react';
+
+export const MyContext=React.createContext("Home")
 
 function App() {
+
+  const [curr_pane,setcurr_pane]=useState("Home")
+
   return (
-    <div className="App">
-      <h1>Initial build of glass react app</h1>
-      <h2>This is sparta</h2>
-      <h3>someting</h3>
-      <h4>Latest news</h4>
+    <div >
+      <MyContext.Provider value={{curr_pane,setcurr_pane}}>
+        <Sidebar/>
+        <Dashboard/>
+      </MyContext.Provider>
     </div>
   );
 }
