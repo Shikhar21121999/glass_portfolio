@@ -1,5 +1,4 @@
 {
-  "homepage": "https://friendly-morse-e751cc.netlify.app/",
   "name": "glass_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -35,5 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
+  }
 }
