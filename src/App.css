@@ -229,7 +229,7 @@ li:after {
 
 .skills {
   margin-top: 0.5rem;
-  background-color: pink;
+  /* background-color: pink; */
   width: 100%;
   flex: 1;
 }
@@ -244,9 +244,62 @@ li:after {
   width: 100%;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  font-size: 1.5rem;
 }
 .row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: row;
+  margin-bottom: 0.75rem;
+}
+
+#whatsappicn {
+  font-size: 48px;
+  color: lightgreen;
+}
+#googleicn {
+  font-size: 48px;
+  color: red;
+}
+#linkedinicn {
+  font-size: 48px;
+  color: blue;
+}
+#githubicn {
+  font-size: 48px;
+}
+#youtubeicn {
+  font-size: 48px;
+  color: red;
+}
+
+.component h1 {
+  color: rgb(229, 233, 125);
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.conn-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.icon-text {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.icn {
+  margin-bottom: 1rem;
 }

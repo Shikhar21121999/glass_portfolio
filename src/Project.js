@@ -4,7 +4,6 @@ export default function Project() {
     // Functional component render Project Page
     return (
         <div class="component">
-            Project component
         </div>
     )
 }
